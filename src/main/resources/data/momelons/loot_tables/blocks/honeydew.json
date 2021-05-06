@@ -24,7 +24,7 @@
                   }
                 }
               ],
-              "name": "minecraft:HoneydewBlock"
+              "name": "momelons:honeydew"
             },
             {
               "type": "minecraft:item",
