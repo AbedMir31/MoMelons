@@ -1,3 +1,8 @@
 {
-  "block.momelons.honeydew": "Honeydew"
+  "block.momelons.honeydew": "Honeydew",
+  "item.momelons.honeydew_seeds": "Honeydew Seeds",
+  "item.momelons.honeydew_slice": "Honeydew Slice",
+
+  "_comment": "Creative Tabs",
+  "ItemGroup.momelons": "Mo' Melons"
 }

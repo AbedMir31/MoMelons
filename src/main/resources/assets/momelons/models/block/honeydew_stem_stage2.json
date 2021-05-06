@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/stem_growth2",
+  "textures": {
+    "stem": "momelons:block/honeydew_stem"
+  }
+}
