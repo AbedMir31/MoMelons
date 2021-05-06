@@ -3,10 +3,10 @@ package com.melonsinc.blocks;
 import net.minecraft.block.*;
 import net.minecraft.block.material.Material;
 
-public class HoneydewBlock extends StemGrownBlock {
+public class HoneydewBlock extends MelonBlock {
 
     public HoneydewBlock() {
-        super(Properties.of(Material.WOOD)
+        super(AbstractBlock.Properties.of(Material.VEGETABLE)
                 .sound(SoundType.WOOD)
                 .strength(1.0f)
                 .harvestLevel(1));
