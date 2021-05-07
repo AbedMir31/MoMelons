@@ -1,4 +1,4 @@
-package com.melonsinc.setup;
+package com.melonsinc.misc;
 
 import com.google.common.collect.ImmutableSet;
 import com.melonsinc.MoMelons;
@@ -40,7 +40,7 @@ public class WorldGen {
 
     @SubscribeEvent(priority = EventPriority.HIGH)
     public static void generatePatchesInWorld(final BiomeLoadingEvent biomeLoadingEvent){
-        MoMelons.getLogger().info("Initializing Biome generation event...");
+        MoMelons.getLogger().info("Initializing Biome generation event at Biome: " + biomeLoadingEvent.getName());
         BiomeGenerationSettingsBuilder gen = biomeLoadingEvent.getGeneration();
         if(biomeLoadingEvent.getCategory().equals(Biome.Category.SAVANNA) ||
                 biomeLoadingEvent.getCategory().equals(Biome.Category.JUNGLE)) {
