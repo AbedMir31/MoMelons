@@ -1,7 +1,12 @@
 {
   "block.momelons.honeydew": "Honeydew",
+  "block.momelons.honeydew_stem": "Honeydew Stem",
   "item.momelons.honeydew_seeds": "Honeydew Seeds",
   "item.momelons.honeydew_slice": "Honeydew Slice",
+  "block.minecraft.melon": "Watermelon",
+  "block.minecraft.melon_stem": "Watermelon Stem",
+  "item.minecraft.melon_seeds": "Watermelon Seeds",
+  "item.minecraft.melon_slice": "Watermelon Slice",
 
   "_comment": "Creative Tabs",
   "ItemGroup.momelons": "Mo' Melons"
